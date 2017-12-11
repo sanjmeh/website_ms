@@ -1,0 +1,223 @@
+/*** MIXINS ***/
+/*** FUNCTIONS ***/
+html {
+  background: #f1f1f1; }
+
+div.wrapper {
+  padding-bottom: 21.25rem;
+  background: #f1f1f1; }
+  @media only screen {
+    div.wrapper {
+      min-height: 118.75rem; } }
+  @media only screen and (min-width: 40.0625rem) {
+    div.wrapper {
+      min-height: 78.125rem; } }
+  @media only screen and (min-width: 64.0625em) {
+    div.wrapper {
+      min-height: auto; } }
+
+div.menu {
+  background: #3a72a8; }
+  @media only screen {
+    div.menu {
+      position: fixed; } }
+  @media only screen and (min-width: 40.0625rem) {
+    div.menu {
+      position: absolute; } }
+
+.content:after {
+  display: block;
+  content: "";
+  clear: both; }
+
+div.content {
+  position: relative;
+  width: 100%; }
+  @media only screen {
+    div.content {
+      top: 10rem; } }
+  @media only screen and (min-width: 40.0625rem) {
+    div.content {
+      top: 10rem; } }
+  @media only screen {
+    div.content #info .intro {
+      padding-left: 2.2rem; } }
+  @media only screen and (min-width: 40.0625rem) {
+    div.content #info .intro {
+      padding-left: 5rem; } }
+  @media only screen and (min-width: 64.0625em) {
+    div.content #info .intro {
+      padding-left: 14.375rem; } }
+  div.content #info .intro h1 {
+    font-family: "Raleway Light";
+    letter-spacing: 1px; }
+    @media only screen {
+      div.content #info .intro h1 {
+        font-size: 3.4375rem; } }
+    @media only screen and (min-width: 40.0625rem) {
+      div.content #info .intro h1 {
+        font-size: 4.0625rem; } }
+    @media only screen and (min-width: 64.0625em) {
+      div.content #info .intro h1 {
+        font-size: 5rem; } }
+  div.content #info .intro p {
+    font-family: "Raleway Medium";
+    letter-spacing: 1px;
+    color: #6a6a6a;
+    width: 88%; }
+    @media only screen {
+      div.content #info .intro p {
+        font-size: 1.625rem;
+        margin-top: 1.875rem; } }
+    @media only screen and (min-width: 40.0625rem) {
+      div.content #info .intro p {
+        font-size: 1.75rem;
+        margin-top: 2.8125rem; } }
+    @media only screen and (min-width: 64.0625em) {
+      div.content #info .intro p {
+        font-size: 1.875rem;
+        margin-top: 3.125rem; } }
+  div.content #info .contacts {
+    padding: 0rem 2.2rem 0rem 2.2rem;
+    position: relative;
+    width: 50rem; }
+    @media only screen {
+      div.content #info .contacts {
+        top: 3.75rem;
+        padding-left: 2.2rem; } }
+    @media only screen and (min-width: 40.0625rem) {
+      div.content #info .contacts {
+        top: 5rem;
+        padding-left: 5rem; } }
+    @media only screen and (min-width: 64.0625em) {
+      div.content #info .contacts {
+        top: 6.25rem;
+        padding-left: 14.375rem; } }
+    div.content #info .contacts header h1 {
+      font-family: "Raleway Light";
+      letter-spacing: 1px; }
+      @media only screen {
+        div.content #info .contacts header h1 {
+          font-size: 3.4375rem; } }
+      @media only screen and (min-width: 40.0625rem) {
+        div.content #info .contacts header h1 {
+          font-size: 4.0625rem; } }
+      @media only screen and (min-width: 64.0625em) {
+        div.content #info .contacts header h1 {
+          font-size: 5rem; } }
+    div.content #info .contacts div.contact {
+      margin-top: 3.125rem;
+      height: 3.75rem; }
+      div.content #info .contacts div.contact img {
+        width: 4.25rem;
+        height: 3.9375rem;
+        position: relative;
+        top: 0.75rem; }
+      div.content #info .contacts div.contact span {
+        font-size: 1.875rem;
+        letter-spacing: 1px; }
+        @media only screen {
+          div.content #info .contacts div.contact span {
+            font-size: 1.625rem; } }
+        @media only screen and (min-width: 40.0625rem) {
+          div.content #info .contacts div.contact span {
+            font-size: 1.75rem; } }
+        @media only screen and (min-width: 64.0625em) {
+          div.content #info .contacts div.contact span {
+            font-size: 1.875rem; } }
+      div.content #info .contacts div.contact span.head {
+        font-family: "Raleway Medium";
+        font-weight: bold;
+        display: inline-block;
+        width: 9.375rem; }
+      div.content #info .contacts div.contact span.info {
+        font-family: "Raleway Medium";
+        font-weight: normal;
+        display: inline-block;
+        position: relative; }
+        div.content #info .contacts div.contact span.info a {
+          color: #376a99; }
+    div.content #info .contacts div.contact.address {
+      margin-top: 4.375rem; }
+      div.content #info .contacts div.contact.address span.head {
+        top: -4.625rem;
+        position: relative; }
+      div.content #info .contacts div.contact.address img {
+        top: -4rem;
+        left: 0.25rem;
+        position: relative; }
+  @media only screen {
+    div.content #form {
+      margin-top: 7.5rem; } }
+  @media only screen and (min-width: 40.0625rem) {
+    div.content #form {
+      margin-top: 0.9375rem; } }
+  @media only screen and (min-width: 64.0625em) {
+    div.content #form {
+      margin-top: 1.25rem; } }
+  @media only screen {
+    div.content #form form {
+      padding-right: 4.2rem;
+      padding-left: 2.2rem; } }
+  @media only screen and (min-width: 40.0625rem) {
+    div.content #form form {
+      padding-right: 5.625rem;
+      padding-left: 3.125rem; } }
+  @media only screen and (min-width: 64.0625em) {
+    div.content #form form {
+      padding-right: 16.25rem;
+      padding-left: 0rem; } }
+  div.content #form form input[type='text'], div.content #form form textarea {
+    width: 100%;
+    display: block;
+    margin-bottom: 2.1875rem;
+    border-radius: 1.875rem;
+    outline: none;
+    border: none;
+    padding-left: 1.875rem;
+    font-family: "Raleway Medium"; }
+    @media only screen {
+      div.content #form form input[type='text'], div.content #form form textarea {
+        font-size: 1.625rem;
+        height: 5.5rem; } }
+    @media only screen and (min-width: 40.0625rem) {
+      div.content #form form input[type='text'], div.content #form form textarea {
+        font-size: 1.75rem;
+        height: 6.25rem; } }
+    @media only screen and (min-width: 64.0625em) {
+      div.content #form form input[type='text'], div.content #form form textarea {
+        font-size: 1.875rem;
+        height: 7rem; } }
+  div.content #form form textarea {
+    resize: none;
+    height: 50%;
+    padding-top: 1.875rem; }
+  div.content #form form input[type='submit'] {
+    text-transform: uppercase;
+    font-family: "Raleway Medium";
+    font-size: 1.875rem;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    background: linear-gradient(to bottom, #81c850, #59b038);
+    padding: 2.1875rem 3.4375rem;
+    font-weight: bold;
+    border-radius: 1.875rem;
+    cursor: pointer;
+    letter-spacing: 1px; }
+
+input:focus::-webkit-input-placeholder {
+  color: transparent; }
+
+input:focus::-moz-placeholder {
+  color: transparent; }
+
+/* firefox 19+ */
+:-ms-input-placeholder {
+  color: #000; }
+
+/* ie */
+input:-moz-placeholder {
+  color: #000; }
+
+/*# sourceMappingURL=contact-style.css.map */

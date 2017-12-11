@@ -1,0 +1,306 @@
+/*** MIXINS ***/
+/*** FUNCTIONS ***/
+@font-face {
+  font-family: "Montserrat Bold";
+  src: url("font/Montserrat-Bold.otf"); }
+@font-face {
+  font-family: "Montserrat Regular";
+  src: url("font/Montserrat-Regular.otf"); }
+@font-face {
+  font-family: "Raleway Light";
+  src: url("font/Raleway-Light.ttf"); }
+@font-face {
+  font-family: "Raleway Medium";
+  src: url("font/Raleway-Medium.ttf"); }
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: normal; }
+
+html {
+  font-size: 50%;
+  min-height: 100%;
+  position: relative; }
+
+button {
+  display: inline-block; }
+
+div.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  overflow: hidden; }
+  @media only screen {
+    div.wrapper {
+      padding-bottom: 21.875rem; } }
+  @media only screen and (min-width: 64.0625em) {
+    div.wrapper {
+      padding-bottom: 10.625rem; } }
+
+.bx-controls-auto {
+  display: none; }
+
+@media only screen {
+  .menu {
+    position: fixed;
+    background: #6aad49;
+    z-index: 9999;
+    float: left; }
+    .menu .logo-wrap {
+      float: left;
+      margin-top: 4.825rem; }
+      .menu .logo-wrap img {
+        width: 200px; }
+    .menu .logo-wrap {
+      margin-top: 1.6rem; }
+      .menu .logo-wrap img {
+        width: 120px; }
+    .menu .nav-wrap {
+      float: right; }
+      .menu .nav-wrap .mobile-menu {
+        display: block;
+        position: relative;
+        border-left: 2px solid #ffffff;
+        padding: 17px 17px 16px 17px;
+        float: right;
+        cursor: pointer; }
+        .menu .nav-wrap .mobile-menu img {
+          width: 27px;
+          height: 17px; }
+      .menu .nav-wrap nav {
+        float: right; } }
+      @media only screen {
+        .menu .nav-wrap nav {
+          padding: 0; } }
+      @media only screen and (min-width: 40.0625rem) {
+        .menu .nav-wrap nav {
+          padding: 0rem 4.375rem 0rem 14.375rem; } }
+      @media only screen and (min-width: 64.0625em) {
+        .menu .nav-wrap nav {
+          padding: 0rem 15rem 0rem 14.375rem; } }
+@media only screen {
+        .menu .nav-wrap nav ul {
+          list-style: none; }
+          .menu .nav-wrap nav ul li {
+            float: left; }
+          .menu .nav-wrap nav ul li:nth-child(2n) {
+            border-left: 2px solid #ffffff;
+            border-right: 2px solid #ffffff; }
+        .menu .nav-wrap nav a {
+          font-family: "Montserrat Bold";
+          color: #ffffff;
+          text-decoration: none;
+          text-transform: uppercase;
+          letter-spacing: 1px; }
+    .menu nav {
+      display: none; }
+
+  #mobile-menu {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    right: 0px;
+    background: #6aad49;
+    top: 52px; }
+    #mobile-menu li {
+      list-style: none;
+      text-align: center;
+      border-left: 2px solid #ffffff;
+      border-top: 2px solid #ffffff; }
+      #mobile-menu li a {
+        font-family: "Montserrat Bold";
+        font-size: 1.55rem;
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        display: inline-block;
+        padding: 15px 45px;
+        width: 50%; }
+    #mobile-menu li:last-child {
+      border-bottom: 2px solid #ffffff; }
+    #mobile-menu li.current {
+      background: #4b7f39; } }
+@media only screen and (min-width: 40.0625rem) {
+  nav {
+    width: 53.8rem; }
+    nav ul {
+      padding: 4.475rem 0rem 5.275rem 0rem; }
+      nav ul li {
+        float: left;
+        padding: 0rem 2.9375rem 0rem 2.9375rem; }
+      nav ul li:first-child {
+        padding: 0rem 2.9375rem 0rem 0rem; }
+      nav ul li:last-child {
+        padding: 0rem 0rem 0rem 2.9375rem; }
+      nav ul li.current a {
+        padding-bottom: 5px;
+        border-bottom: 2px solid #ffffff; }
+    nav a {
+      font-size: 1.3rem; }
+
+  .menu {
+    background: none;
+    position: absolute; }
+    .menu .logo-wrap {
+      margin-top: 3.425rem; }
+      .menu .logo-wrap img {
+        width: 120px;
+        margin-left: 5rem; }
+    .menu .nav-wrap .mobile-menu {
+      display: none; }
+    .menu .nav-wrap nav {
+      display: block; }
+
+  #mobile-menu {
+    display: none; } }
+@media only screen and (min-width: 64.0625em) {
+  nav {
+    width: 58.5rem; }
+    nav ul {
+      padding: 3.75rem 0rem 5rem 0rem; }
+      nav ul li {
+        float: left;
+        padding: 0rem 2.9375rem 0rem 2.9375rem; }
+      nav ul li:first-child {
+        padding: 0rem 2.9375rem 0rem 0rem; }
+      nav ul li:last-child {
+        padding: 0rem 0rem 0rem 2.9375rem; }
+    nav a {
+      font-size: 1.55rem; }
+
+  .menu .logo-wrap {
+    margin-top: 2rem; }
+    .menu .logo-wrap img {
+      width: 170px;
+      margin-left: 15rem; } }
+/* Footer */
+footer {
+  position: absolute;
+  bottom: 0px;
+  display: block;
+  height: 10.625rem;
+  background: #2e577f; }
+  footer .policy ul li, footer .social ul li {
+    list-style: none;
+    float: left; }
+  footer .image-wrap {
+    float: left;
+    margin-top: 3.125rem; }
+    footer .image-wrap img {
+      height: 3.9375rem; }
+  footer .notes {
+    text-align: center;
+    font: 1.125rem "Raleway Medium";
+    color: #ffffff;
+    margin-top: 3.125rem; }
+    footer .notes .policy, footer .notes .copyrights {
+      display: block;
+      width: 100%; }
+    footer .notes .policy {
+      height: 3.375rem;
+      text-align: center; }
+      footer .notes .policy ul {
+        display: inline-block; }
+        footer .notes .policy ul li {
+          list-style: none;
+          float: left; }
+          footer .notes .policy ul li span.separator {
+            border: none;
+            border-left: 1px solid #ffffff;
+            position: relative;
+            bottom: 0.125rem; }
+          footer .notes .policy ul li a {
+            font-family: "Raleway Medium";
+            color: #ffffff;
+            text-decoration: none; }
+  footer .social {
+    position: relative; }
+  footer .social-nav {
+    float: right;
+    position: relative;
+    bottom: 0.9375rem; }
+    footer .social-nav a {
+      padding: 0rem 1.25rem 0rem 1.25rem; }
+      footer .social-nav a img {
+        width: 3.125rem;
+        height: 3.125rem; }
+
+@media only screen {
+  footer {
+    height: 21.875rem; }
+    footer .image-wrap {
+      margin-top: 3.125rem;
+      text-align: center; }
+      footer .image-wrap img {
+        height: 3.9375rem;
+        position: relative;
+        margin-right: 1.25rem; }
+    footer .notes {
+      font-size: 1.125rem;
+      margin-top: 6.25rem; }
+      footer .notes .policy {
+        height: 3.375rem; }
+        footer .notes .policy ul a {
+          font-size: 1.125rem;
+          padding: 4.375rem 0.5rem 0px 0.5rem; }
+    footer .social {
+      margin-top: -9.375rem;
+      text-align: center; }
+    footer .social-nav {
+      float: none;
+      display: inline-block; }
+      footer .social-nav a {
+        padding: 0rem 0.625rem 0rem 0.625rem; }
+        footer .social-nav a img {
+          width: 3.125rem;
+          height: 3.125rem; } }
+@media only screen and (min-width: 40.0625rem) {
+  footer {
+    height: 10.625rem; }
+    footer .image-wrap {
+      margin-top: 3.125rem; }
+      footer .image-wrap img {
+        height: 3.9375rem; }
+    footer .notes {
+      font-size: 1.125rem;
+      margin-top: 3.125rem; }
+      footer .notes .policy {
+        height: 3.375rem; }
+        footer .notes .policy ul a {
+          font-size: 1.125rem;
+          padding: 4.375rem 0.5rem 0px 0.5rem; }
+    footer .social {
+      margin-top: 4.375rem; }
+    footer .social-nav {
+      bottom: 0.9375rem; }
+      footer .social-nav a {
+        padding: 0rem 0.625rem 0rem 0.625rem; }
+        footer .social-nav a img {
+          width: 3.125rem;
+          height: 3.125rem; } }
+@media only screen and (min-width: 64.0625em) {
+  footer {
+    height: 10.625rem; }
+    footer .image-wrap {
+      margin-top: 3.125rem; }
+      footer .image-wrap img {
+        height: 3.9375rem; }
+    footer .notes {
+      font-size: 1.125rem;
+      margin-top: 3.125rem; }
+      footer .notes .policy {
+        height: 3.375rem; }
+        footer .notes .policy ul a {
+          font-size: 1.5rem;
+          padding: 4.375rem 1.25rem 0px 1.25rem; }
+    footer .social {
+      margin-top: 4.375rem; }
+    footer .social-nav {
+      bottom: 0.9375rem; }
+      footer .social-nav a {
+        padding: 0rem 1.25rem 0rem 1.25rem; }
+        footer .social-nav a img {
+          width: 3.125rem;
+          height: 3.125rem; } }
+
+/*# sourceMappingURL=common-style.css.map */

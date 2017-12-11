@@ -1,0 +1,419 @@
+/*** MIXINS ***/
+/*** FUNCTIONS ***/
+@font-face {
+  font-family: "Raleway Bold";
+  src: url("font/Raleway-Bold.ttf"); }
+p {
+  display: inline-block; }
+
+div.menu {
+  z-index: 999; }
+  @media only screen {
+    div.menu {
+      position: fixed; } }
+  @media only screen and (min-width: 40.0625rem) {
+    div.menu {
+      position: absolute; } }
+
+#landing {
+  position: relative;
+  background: url("../img/demo-bigpic.png") no-repeat center center;
+  background-size: cover; }
+  @media only screen {
+    #landing {
+      height: 62.5rem; } }
+  @media only screen and (min-width: 40.0625rem) {
+    #landing {
+      height: 93.75rem; } }
+  @media only screen and (min-width: 64.0625em) {
+    #landing {
+      height: 107.625rem; } }
+  #landing .text {
+    z-index: 2;
+    color: #ffffff;
+    text-align: center; }
+    #landing .text h1 {
+      font-family: "Raleway Light"; }
+      @media only screen {
+        #landing .text h1 {
+          font-size: 3.0625rem; } }
+      @media only screen and (min-width: 40.0625rem) {
+        #landing .text h1 {
+          font-size: 5rem; } }
+      @media only screen and (min-width: 64.0625em) {
+        #landing .text h1 {
+          font-size: 7.5rem; } }
+    #landing .text span {
+      font-family: "Raleway Medium"; }
+      #landing .text span .free {
+        text-transform: uppercase;
+        color: #4cd964; }
+      @media only screen {
+        #landing .text span {
+          font-size: 1.5625rem; } }
+      @media only screen and (min-width: 40.0625rem) {
+        #landing .text span {
+          font-size: 1.5625rem; } }
+      @media only screen and (min-width: 64.0625em) {
+        #landing .text span {
+          font-size: 1.875rem; } }
+  @media only screen {
+    #landing .header {
+      margin-top: 34.375rem; } }
+  @media only screen and (min-width: 40.0625rem) {
+    #landing .header {
+      margin-top: 62.875rem; } }
+  @media only screen and (min-width: 64.0625em) {
+    #landing .header {
+      margin-top: 72.25rem; } }
+  @media only screen {
+    #landing .hint {
+      margin-top: 3.125rem; } }
+  @media only screen and (min-width: 40.0625rem) {
+    #landing .hint {
+      margin-top: 3.125rem; } }
+  @media only screen and (min-width: 64.0625em) {
+    #landing .hint {
+      margin-top: 3.125rem; } }
+  #landing .button-wrap {
+    z-index: 2;
+    text-align: center;
+    letter-spacing: 1px; }
+    @media only screen {
+      #landing .button-wrap {
+        margin-top: 6.25rem; } }
+    @media only screen and (min-width: 64.0625em) {
+      #landing .button-wrap {
+        margin-top: 9.375rem; } }
+    #landing .button-wrap a {
+      background: linear-gradient(to top, #58af37, #83c951);
+      font-family: "Raleway Bold";
+      text-transform: uppercase;
+      color: #ffffff;
+      cursor: pointer; }
+      @media only screen {
+        #landing .button-wrap a {
+          padding: 2.1875rem 8.25rem;
+          font-size: 1.5625rem;
+          border-radius: 10px; } }
+      @media only screen and (min-width: 40.0625rem) {
+        #landing .button-wrap a {
+          padding: 2.1875rem 8.25rem;
+          font-size: 1.5625rem;
+          border-radius: 10px; } }
+      @media only screen and (min-width: 64.0625em) {
+        #landing .button-wrap a {
+          padding: 3.4375rem 11.375rem;
+          font-size: 1.875rem;
+          border-radius: 20px; } }
+
+@media only screen {
+  #about {
+    padding: 12.5rem 0rem 12.5rem 0rem; } }
+@media only screen and (min-width: 64.0625em) {
+  #about {
+    padding: 18.4375rem 0rem 18.75rem 0rem; } }
+#about header {
+  text-align: center;
+  margin-bottom: 6.75rem; }
+  #about header h1 {
+    font-family: "Raleway Light";
+    display: inline-block;
+    letter-spacing: 1px; }
+    @media only screen {
+      #about header h1 {
+        font-size: 3.4375rem; } }
+    @media only screen and (min-width: 40.0625rem) {
+      #about header h1 {
+        font-size: 4.0625rem; } }
+    @media only screen and (min-width: 64.0625em) {
+      #about header h1 {
+        font-size: 4.5rem; } }
+#about .text {
+  text-align: center; }
+  #about .text p {
+    color: #999999;
+    font-size: 1.875rem;
+    font-family: "Raleway Medium";
+    margin-top: 4rem;
+    letter-spacing: 1px;
+    line-height: 3.125rem; }
+
+#request {
+  position: relative;
+  height: 116.875rem;
+  color: #ffffff;
+  background: url("../img/app-bg.png") no-repeat center center;
+  background-size: cover; }
+  @media only screen {
+    #request {
+      font-size: 4.375rem;
+      height: 116.875rem; } }
+  @media only screen and (min-width: 40.0625rem) {
+    #request {
+      font-size: 5rem;
+      height: 118.75rem; } }
+  @media only screen and (min-width: 64.0625em) {
+    #request {
+      font-size: 7.5rem;
+      height: 116.875rem; } }
+  #request header {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    text-align: center; }
+    @media only screen {
+      #request header {
+        margin-top: 6.75rem; } }
+    @media only screen and (min-width: 40.0625rem) {
+      #request header {
+        margin-top: 13.625rem; } }
+    @media only screen and (min-width: 64.0625em) {
+      #request header {
+        margin-top: 16.75rem; } }
+    #request header h1 {
+      font-family: "Raleway Light";
+      letter-spacing: 1px; }
+      @media only screen {
+        #request header h1 {
+          font-size: 4.375rem; } }
+      @media only screen and (min-width: 40.0625rem) {
+        #request header h1 {
+          font-size: 5rem; } }
+      @media only screen and (min-width: 64.0625em) {
+        #request header h1 {
+          font-size: 7.5rem; } }
+    #request header p {
+      font-family: "Raleway Medium";
+      font-size: 1.875rem;
+      margin-top: 4.125rem;
+      letter-spacing: 1px;
+      line-height: 2.8125rem; }
+  #request .form {
+    position: absolute;
+    z-index: 2;
+    font-family: "Raleway Medium";
+    font-size: 1.875rem;
+    width: 100%; }
+    #request .form form {
+      width: 100%; }
+      @media only screen {
+        #request .form form {
+          margin-top: 28.125rem; } }
+      @media only screen and (min-width: 40.0625rem) {
+        #request .form form {
+          margin-top: 34.375rem; } }
+      @media only screen and (min-width: 64.0625em) {
+        #request .form form {
+          margin-top: 40.625rem; } }
+      #request .form form .row {
+        position: relative;
+        text-align: center; }
+        #request .form form .row .wrap {
+          display: inline-block; }
+          #request .form form .row .wrap input {
+            margin-bottom: 2.3125rem;
+            font-family: "Raleway Medium";
+            font-size: 1.875rem;
+            color: #000000;
+            padding-left: 15px;
+            outline: none;
+            border: none; }
+            @media only screen {
+              #request .form form .row .wrap input {
+                height: 5.8125rem;
+                width: 90%;
+                margin-left: 0;
+                border-radius: 10px; } }
+            @media only screen and (min-width: 40.0625rem) {
+              #request .form form .row .wrap input {
+                height: 7.0625rem;
+                width: 42.1875rem;
+                margin-left: 2.1875rem;
+                border-radius: 15px; } }
+      #request .form form .button-wrap {
+        text-align: center;
+        margin-top: 12.5rem; }
+        #request .form form .button-wrap input[type='submit'] {
+          background: linear-gradient(to top, #58af37, #83c951);
+          font-family: "Raleway Bold";
+          font-size: 1.875rem;
+          text-transform: uppercase;
+          color: #ffffff;
+          padding: 3.4375rem 11.375rem;
+          border-radius: 20px;
+          cursor: pointer;
+          border: none;
+          outline: none;
+          letter-spacing: 1px; }
+          @media only screen {
+            #request .form form .button-wrap input[type='submit'] {
+              font-size: 1.5625rem;
+              padding: 2.1875rem 8.25rem;
+              border-radius: 10px; } }
+          @media only screen and (min-width: 40.0625rem) {
+            #request .form form .button-wrap input[type='submit'] {
+              font-size: 1.875rem;
+              padding: 3.4375rem 11.375rem;
+              border-radius: 20px; } }
+    #request .form div.radio {
+      text-align: center; }
+      #request .form div.radio header {
+        margin-top: 0rem; }
+        #request .form div.radio header div.border {
+          border-bottom: 2px solid #618db8;
+          width: 46.875rem;
+          display: inline-block; }
+        #request .form div.radio header h1 {
+          font-family: "Raleway Medium";
+          font-size: 1.875rem;
+          padding: 3.5rem 0rem 1.25rem 0rem;
+          letter-spacing: 1px; }
+      #request .form div.radio div.options {
+        position: relative;
+        top: 12.5rem;
+        display: inline-block; }
+        #request .form div.radio div.options .option {
+          height: 7.5rem;
+          position: relative;
+          text-align: left; }
+          #request .form div.radio div.options .option input {
+            position: absolute;
+            top: 0px;
+            color: red; }
+          #request .form div.radio div.options .option span {
+            position: absolute;
+            display: inline-block;
+            left: 3.75rem;
+            top: 0;
+            letter-spacing: 0.5px; }
+          #request .form div.radio div.options .option label {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            padding-left: 25px;
+            margin-right: 15px;
+            font-size: 13px; }
+          #request .form div.radio div.options .option input[type="radio"] {
+            display: none; }
+          #request .form div.radio div.options .option label:before {
+            content: "";
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+            margin-right: 10px;
+            position: absolute;
+            left: 0;
+            bottom: -5px;
+            background-color: #fff;
+            border-radius: 50%; }
+          #request .form div.radio div.options .option input[type=radio]:checked + label:before {
+            content: "\2022";
+            color: #6dbc44;
+            text-align: center; }
+            @media only screen {
+              #request .form div.radio div.options .option input[type=radio]:checked + label:before {
+                line-height: 17px;
+                letter-spacing: 0px;
+                font-size: 51px; } }
+            @media only screen and (min-width: 40.0625rem) {
+              #request .form div.radio div.options .option input[type=radio]:checked + label:before {
+                line-height: 19px;
+                letter-spacing: 0px;
+                font-size: 50px; } }
+
+#apps {
+  text-align: center; }
+  @media only screen {
+    #apps {
+      height: 106.25rem; } }
+  @media only screen and (min-width: 40.0625rem) {
+    #apps {
+      height: auto; } }
+  #apps header {
+    margin-top: 11.25rem; }
+    #apps header h1 {
+      font-family: "Raleway Light";
+      font-size: 4.5rem;
+      letter-spacing: 1px; }
+  #apps div.text {
+    margin-top: 3.25rem;
+    text-align: center; }
+    #apps div.text p {
+      font-family: "Raleway Medium";
+      font-size: 1.875rem;
+      color: #999999;
+      line-height: 3.125rem;
+      letter-spacing: 1px; }
+  #apps div.download {
+    margin-top: 6.25rem; }
+    #apps div.download div.button-wrap {
+      display: inline-block;
+      margin-top: 4.0625rem; }
+      @media only screen {
+        #apps div.download div.button-wrap {
+          margin-left: 0; } }
+      @media only screen and (min-width: 40.0625rem) {
+        #apps div.download div.button-wrap {
+          margin-left: 3.125rem; } }
+      #apps div.download div.button-wrap button {
+        outline: none;
+        background: #f4f4f4;
+        border: none;
+        border-radius: 2.1875rem;
+        width: 31.25rem;
+        height: 9.375rem;
+        position: relative;
+        cursor: pointer; }
+        #apps div.download div.button-wrap button .icon {
+          float: left;
+          width: 9.625rem;
+          height: 9.625rem; }
+          #apps div.download div.button-wrap button .icon img {
+            width: 100%;
+            height: 100%; }
+      #apps div.download div.button-wrap span.label {
+        color: #555555;
+        font-size: 2.25rem;
+        font-family: "Montserrat Regular";
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-top: 0.625rem;
+        position: absolute;
+        top: 1.25rem;
+        left: 11.875rem; }
+      #apps div.download div.button-wrap span.notes {
+        color: #999999;
+        font-size: 1.125rem;
+        font-family: "Raleway Light";
+        text-transform: uppercase;
+        display: block;
+        position: absolute;
+        top: 5.625rem;
+        left: 11.875rem; }
+  #apps div.links {
+    width: 100%;
+    margin-top: 10.6875rem; }
+    #apps div.links a {
+      display: inline-block;
+      width: 100%;
+      font-family: "Raleway Medium";
+      font-size: 1.875rem;
+      colot: #3a72a8;
+      margin-bottom: 5.75rem; }
+
+::-webkit-input-placeholder {
+  color: #000; }
+
+::-moz-placeholder {
+  color: #000; }
+
+/* firefox 19+ */
+:-ms-input-placeholder {
+  color: #000; }
+
+/* ie */
+input:-moz-placeholder {
+  color: #000; }
+
+/*# sourceMappingURL=demo-style.css.map */

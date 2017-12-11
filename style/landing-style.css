@@ -1,0 +1,353 @@
+/*** MIXINS ***/
+/*** FUNCTIONS ***/
+span.separator {
+  border: 1px solid #ffffff;
+  width: 1px;
+  height: 100%; }
+
+/* Landing section */
+#landing {
+  width: 100%;
+  position: relative;
+  background: url("../img/landing-bg.png") no-repeat center center;
+  background-size: cover; }
+  #landing .content {
+    position: absolute;
+    margin-top: 28.1875rem;
+    height: auto;
+    z-index: 2; }
+    #landing .content div.slideshow {
+      position: relative; }
+      #landing .content div.slideshow .bx-wrapper .bx-viewport {
+        background: none;
+        height: 100% !important;
+        border: none;
+        box-shadow: none; }
+      #landing .content div.slideshow .bx-controls .bx-pager {
+        bottom: -3.125rem;
+        left: -1rem; }
+        #landing .content div.slideshow .bx-controls .bx-pager .bx-pager-item {
+          float: left; }
+        #landing .content div.slideshow .bx-controls .bx-pager a {
+          background: #ffffff;
+          opacity: 0.5; }
+        #landing .content div.slideshow .bx-controls .bx-pager a.active {
+          opacity: 1; }
+      #landing .content div.slideshow .bx-controls .bx-controls-direction {
+        display: none; }
+      #landing .content div.slideshow ul li .wrap {
+        color: #ffffff;
+        font-family: "Raleway Light";
+        font-weight: normal;
+        text-align: left; }
+  #landing div.download {
+    margin-top: 4rem; }
+    #landing div.download button {
+      outline: none;
+      background: #363636;
+      border: none;
+      border-radius: 2.1875rem;
+      width: 31.25rem;
+      height: 9.375rem;
+      position: relative;
+      cursor: pointer; }
+      #landing div.download button .icon {
+        float: left;
+        width: 9.625rem;
+        height: 9.625rem; }
+        #landing div.download button .icon img {
+          width: 100%;
+          height: 100%; }
+    #landing div.download span.label {
+      color: #ffffff;
+      font-size: 2.25rem;
+      font-family: "Montserrat Regular";
+      text-transform: uppercase;
+      margin-top: 0.625rem;
+      position: absolute;
+      top: 1.25rem;
+      left: 11.875rem; }
+    #landing div.download span.notes {
+      color: #999999;
+      font-size: 1.125rem;
+      font-family: "Raleway Light";
+      text-transform: uppercase;
+      display: block;
+      position: absolute;
+      top: 5.625rem;
+      left: 11.875rem; }
+    #landing div.download div.video {
+      width: 37.5rem;
+      display: inline-block;
+      position: relative;
+      top: -6.25rem; }
+      #landing div.download div.video a {
+        display: inline-block;
+        width: 100%;
+        text-decoration: none;
+        text-transform: uppercase; }
+        #landing div.download div.video a .image-wrap {
+          width: 6.25rem;
+          height: 6.25rem;
+          position: relative;
+          float: left; }
+          #landing div.download div.video a .image-wrap img {
+            position: absolute;
+            left: -3px;
+            top: -3px;
+            width: 120%;
+            height: 120%; }
+        #landing div.download div.video a span {
+          font-family: "Montserrat Regular";
+          font-size: 1.4375rem;
+          color: #fff;
+          text-decoration: underline;
+          position: relative;
+          left: 2.5rem;
+          top: 2.5rem;
+          letter-spacing: 1px; }
+
+/* Solution section */
+#solution-sec {
+  width: 100%; }
+  #solution-sec header {
+    margin-top: 7.5rem;
+    text-align: center; }
+    #solution-sec header h1 {
+      font-weight: normal;
+      font-family: "Raleway Light";
+      text-align: center;
+      display: inline-block;
+      line-height: 5.625rem;
+      letter-spacing: 1px; }
+  #solution-sec div.tabs {
+    height: 0rem; }
+    #solution-sec div.tabs ul li {
+      float: left;
+      list-style: none !important;
+      height: 8.75rem;
+      border: 1px solid #e5e5e5;
+      border-top: 1px solid #e5e5e5;
+      border-bottom: 1px solid #e5e5e5;
+      border-left: none;
+      background: #f9fafa;
+      padding: 3.125rem 0rem 0rem 0rem;
+      text-align: center;
+      overflow: hidden;
+      cursor: pointer;
+      box-sizing: border-box; }
+      #solution-sec div.tabs ul li a {
+        text-decoration: none;
+        letter-spacing: 1px;
+        font-family: "Montserrat Regular";
+        color: #a2a3a3;
+        text-transform: uppercase; }
+        @media only screen {
+          #solution-sec div.tabs ul li a {
+            font-size: 1.5rem; } }
+        @media only screen and (min-width: 40.0625rem) {
+          #solution-sec div.tabs ul li a {
+            font-size: 1.75rem; } }
+    #solution-sec div.tabs ul li:first-child {
+      border-bottom-left-radius: 1.25rem;
+      border-top-left-radius: 1.25rem;
+      border-left: 1px solid #e5e5e5;
+      border-left: 1px solid #e5e5e5; }
+    #solution-sec div.tabs ul li:last-child {
+      border-bottom-right-radius: 1.25rem;
+      border-top-right-radius: 1.25rem;
+      border-right: 1px solid #e5e5e5; }
+    #solution-sec div.tabs ul li.current {
+      background: none;
+      z-index: 999; }
+      #solution-sec div.tabs ul li.current a {
+        color: #000000;
+        display: block;
+        height: 4.75rem;
+        border-bottom: 8px solid #00aeef;
+        z-index: 1; }
+  #solution-sec div.tab-content .tab {
+    display: none; }
+  #solution-sec div.tab-content .tab .bx-viewport {
+    border: none;
+    box-shadow: none;
+    background: none;
+    height: 100% !important; }
+  #solution-sec div.tab-content .tab .bx-pager {
+    bottom: -3.75rem;
+    margin-left: -4.2rem;
+    display: inline-block; }
+    #solution-sec div.tab-content .tab .bx-pager a {
+      background: #a3a3a3;
+      opacity: 0.4; }
+    #solution-sec div.tab-content .tab .bx-pager a.active {
+      background: #a3a3a3;
+      opacity: 1; }
+  #solution-sec div.tab-content .tab .bx-controls-direction {
+    display: none; }
+  #solution-sec div.tab-content .tab.current {
+    display: block; }
+  #solution-sec div.tab-content .slideshow .bx-controls-direction {
+    display: none; }
+  #solution-sec div.tab-content .slideshow .bx-viewport {
+    border: none;
+    box-shadow: none; }
+  #solution-sec div.tab-content .slideshow .bx-pager-item a {
+    background: #cccccc; }
+  #solution-sec div.tab-content .slideshow .bx-pager-item a.active {
+    background: #000000; }
+  #solution-sec div.tab-content .slideshow .bx-controls {
+    padding-top: 6.25rem; }
+  #solution-sec div.tab-content .slideshow {
+    float: left;
+    margin-top: 5.9375rem; }
+    #solution-sec div.tab-content .slideshow ul {
+      list-style: none !important; }
+      #solution-sec div.tab-content .slideshow ul li {
+        list-style: none !important; }
+    #solution-sec div.tab-content .slideshow .text-wrap h1 {
+      font-family: "Raleway Light";
+      color: #000000;
+      font-weight: normal;
+      padding-bottom: 1.5625rem;
+      line-height: 5.625rem;
+      letter-spacing: 1px; }
+    #solution-sec div.tab-content .slideshow .text-wrap p {
+      font-family: "Raleway Medium";
+      color: #999999;
+      margin-top: 3.5625rem;
+      line-height: 3.75rem;
+      letter-spacing: 1px; }
+    #solution-sec div.tab-content .slideshow .fact-sheet-wrap {
+      margin-top: 6.625rem;
+      display: inline-block; }
+      #solution-sec div.tab-content .slideshow .fact-sheet-wrap a.link {
+        color: #0f0f0f;
+        font-family: "Raleway Medium";
+        font-size: 1.875rem;
+        position: relative;
+        bottom: 2rem;
+        text-decoration: underline; }
+      #solution-sec div.tab-content .slideshow .fact-sheet-wrap a.button {
+        height: 5.125rem;
+        padding-right: 6.25rem;
+        border-radius: 0.9375rem;
+        background-color: #f9fafa;
+        font-family: "Montserrat Regular";
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        border: 1px solid #e5e5e5; }
+        #solution-sec div.tab-content .slideshow .fact-sheet-wrap a.button img {
+          position: absolute;
+          left: 1.4375rem;
+          top: 1.5375rem;
+          width: 2.125rem;
+          height: 2.25rem; }
+        #solution-sec div.tab-content .slideshow .fact-sheet-wrap a.button span {
+          position: relative;
+          top: 1.7rem;
+          left: 4.5625rem;
+          width: 33rem;
+          letter-spacing: 0.5px; }
+  #solution-sec div.tab-content .product-img {
+    position: relative; }
+    #solution-sec div.tab-content .product-img img {
+      width: 100%;
+      float: right; }
+
+/* Overview section */
+#overview-sec {
+  position: relative;
+  background: url("../img/app-bg.png") no-repeat center center;
+  background-size: cover; }
+  #overview-sec header {
+    position: absolute;
+    z-index: 2;
+    top: 11.375rem;
+    text-align: center; }
+    #overview-sec header h1 {
+      color: #ffffff;
+      font: 5.5rem "Raleway Light";
+      letter-spacing: 1px; }
+  #overview-sec .slideshow {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    text-align: center; }
+    #overview-sec .slideshow .wrap:after {
+      content: "";
+      display: block;
+      clear: both; }
+    #overview-sec .slideshow .text {
+      color: #ffffff;
+      margin-top: 36.875rem;
+      float: left;
+      text-align: left; }
+      #overview-sec .slideshow .text h1 {
+        font-family: "Raleway Light";
+        width: 100%;
+        letter-spacing: 1px; }
+      #overview-sec .slideshow .text p {
+        font-family: "Raleway Light";
+        width: 100%;
+        margin-top: 3.75rem;
+        letter-spacing: 1px; }
+    #overview-sec .slideshow .image-wrap {
+      float: left;
+      position: relative; }
+      #overview-sec .slideshow .image-wrap img {
+        width: 100%;
+        height: 100%; }
+  #overview-sec .slideshow li:after {
+    content: "";
+    display: block;
+    clear: both; }
+  #overview-sec .slideshow .bx-viewport {
+    border: none;
+    box-shadow: none;
+    background: none;
+    height: 100% !important;
+    display: inline-block; }
+  #overview-sec .slideshow {
+    text-align: center; }
+  #overview-sec .slideshow .screen {
+    display: inline-block; }
+  #overview-sec .slideshow .bx-pager {
+    top: 11.875rem;
+    display: inline-block; }
+    #overview-sec .slideshow .bx-pager a {
+      background: #ffffff;
+      opacity: 0.4; }
+    #overview-sec .slideshow .bx-pager a.active {
+      background: #ffffff;
+      opacity: 1; }
+  #overview-sec .slideshow .bx-controls-direction {
+    display: none; }
+
+/* UI section */
+#ui-sec {
+  text-align: center; }
+  #ui-sec .image-wrap {
+    display: inline-block; }
+    #ui-sec .image-wrap img {
+      width: 100%;
+      height: 100%; }
+  #ui-sec .text {
+    position: relative;
+    margin-top: 10%; }
+    #ui-sec .text h1 {
+      font: 4.5rem "Raleway Light";
+      letter-spacing: 1px;
+      line-height: 6.25rem; }
+    #ui-sec .text p {
+      font: 1.875rem "Raleway Medium";
+      color: #999999;
+      letter-spacing: 1px;
+      line-height: 3.125rem;
+      position: relative;
+      display: inline-block; }
+
+/*# sourceMappingURL=landing-style.css.map */

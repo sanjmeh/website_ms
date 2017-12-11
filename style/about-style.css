@@ -1,0 +1,171 @@
+/*** MIXINS ***/
+/*** FUNCTIONS ***/
+@font-face {
+  font-family: "Raleway Extralight";
+  src: url("font/Raleway-ExtraLight.ttf"); }
+div.wrapper {
+  padding-bottom: 10.625rem;
+  width: 100%; }
+
+#landing {
+  width: 100%;
+  height: 62.125rem;
+  background: url("../img/about-bigpic.png") no-repeat center center;
+  background-size: cover; }
+
+#top-text {
+  padding-bottom: 10rem;
+  padding-top: 9.875rem; }
+  #top-text header {
+    text-align: center; }
+    #top-text header h1 {
+      font-family: "Raleway Light";
+      letter-spacing: 1px; }
+      @media only screen {
+        #top-text header h1 {
+          font-size: 3.4375rem; } }
+      @media only screen and (min-width: 40.0625rem) {
+        #top-text header h1 {
+          font-size: 4.0625rem; } }
+      @media only screen and (min-width: 64.0625em) {
+        #top-text header h1 {
+          font-size: 4.5rem; } }
+  #top-text .text {
+    text-align: center; }
+    #top-text .text p {
+      font-family: "Raleway Medium";
+      font-size: 1.875rem;
+      display: inline-block;
+      margin-top: 8rem;
+      text-align: justify;
+      color: #363636;
+      letter-spacing: 1px;
+      line-height: 2.8125rem; }
+      @media only screen {
+        #top-text .text p {
+          margin-top: 3.75rem; } }
+      @media only screen and (min-width: 40.0625rem) {
+        #top-text .text p {
+          margin-top: 8rem; } }
+
+#slides {
+  background: #7dc54e; }
+  @media only screen {
+    #slides {
+      padding-bottom: 12.5rem;
+      padding-top: 9.375rem; } }
+  @media only screen and (min-width: 40.0625rem) {
+    #slides {
+      padding-bottom: 31.25rem;
+      padding-top: 18.75rem; } }
+  #slides .bx-viewport {
+    background: none;
+    height: 100% !important;
+    border: none;
+    box-shadow: none; }
+  #slides .bx-controls .bx-pager {
+    bottom: 10px;
+    text-align: center;
+    width: 100%; }
+    #slides .bx-controls .bx-pager a {
+      background: #ffffff;
+      opacity: 0.5; }
+    #slides .bx-controls .bx-pager a.active {
+      opacity: 1; }
+  #slides .bx-controls .bx-controls-direction {
+    display: none; }
+  #slides header h1 {
+    font-family: "Raleway Light";
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 1px; }
+    @media only screen {
+      #slides header h1 {
+        font-size: 5rem; } }
+    @media only screen and (min-width: 40.0625rem) {
+      #slides header h1 {
+        font-size: 6.25rem; } }
+    @media only screen and (min-width: 64.0625em) {
+      #slides header h1 {
+        font-size: 7.5rem; } }
+  #slides ul {
+    margin-top: 3rem; }
+    #slides ul li .wrap {
+      color: #ffffff;
+      text-align: center; }
+      #slides ul li .wrap .quot {
+        text-align: center; }
+        #slides ul li .wrap .quot img {
+          display: inline-block;
+          width: 4.375rem;
+          height: 3.75rem; }
+      #slides ul li .wrap .text {
+        margin-top: 2.5rem; }
+        #slides ul li .wrap .text p {
+          font-family: "Raleway Extralight";
+          display: inline-block; }
+          @media only screen {
+            #slides ul li .wrap .text p {
+              font-size: 2.8125rem; } }
+          @media only screen and (min-width: 40.0625rem) {
+            #slides ul li .wrap .text p {
+              font-size: 4.0625rem; } }
+          @media only screen and (min-width: 64.0625em) {
+            #slides ul li .wrap .text p {
+              font-size: 4.5rem; } }
+      #slides ul li .wrap .sign {
+        text-align: center;
+        width: 25.875rem;
+        padding-bottom: 7.5rem;
+        padding-top: 5.625rem;
+        display: inline-block; }
+        #slides ul li .wrap .sign .image-wrap {
+          position: relative;
+          width: 16.4375rem;
+          height: 16.125rem;
+          overflow: hidden;
+          margin-left: 5rem; }
+          #slides ul li .wrap .sign .image-wrap img {
+            width: 100%;
+            height: 100%; }
+        #slides ul li .wrap .sign span {
+          font-family: "Raleway Light";
+          font-size: 1.875rem;
+          position: relative;
+          top: 1.25rem;
+          letter-spacing: 1px; }
+
+#mission {
+  text-align: center;
+  padding-top: 9.375rem;
+  padding-bottom: 9.375rem; }
+  @media only screen {
+    #mission {
+      padding-bottom: 18.75rem; } }
+  @media only screen and (min-width: 40.0625rem) {
+    #mission {
+      padding-bottom: 9.375rem; } }
+  #mission header {
+    padding-bottom: 3.125rem; }
+    #mission header h1 {
+      font-family: "Raleway Light";
+      letter-spacing: 1px; }
+      @media only screen {
+        #mission header h1 {
+          font-size: 3.4375rem; } }
+      @media only screen and (min-width: 40.0625rem) {
+        #mission header h1 {
+          font-size: 4.0625rem; } }
+      @media only screen and (min-width: 64.0625em) {
+        #mission header h1 {
+          font-size: 4.5rem; } }
+  #mission p {
+    font-family: "Raleway Medium";
+    font-size: 1.875rem;
+    color: #999999;
+    display: inline-block;
+    margin-top: 3.75rem;
+    letter-spacing: 1px;
+    line-height: 2.8125rem; }
+
+/*# sourceMappingURL=about-style.css.map */

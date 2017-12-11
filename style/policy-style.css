@@ -1,0 +1,32 @@
+/*** MIXINS ***/
+/*** FUNCTIONS ***/
+@media only screen {
+  div.menu {
+    background: #6AAD49; } }
+@media only screen and (min-width: 40.0625rem) {
+  div.menu {
+    background: #3a72a8; } }
+
+main {
+  margin-top: 11.25rem; }
+  @media only screen {
+    main article {
+      padding: 6rem 2.2rem 0 2.2rem; } }
+  @media only screen and (min-width: 40.0625rem) {
+    main article {
+      padding: 6rem 15rem 0 14.375rem; } }
+  main article h1 {
+    font-family: "Raleway Light";
+    font-size: 4.5rem;
+    margin-bottom: 6rem; }
+  main article h2 {
+    font-family: "Raleway Medium";
+    font-size: 1.875rem;
+    font-weight: bold;
+    margin-bottom: 3rem; }
+  main article p {
+    font-family: "Raleway Medium";
+    font-size: 1.875rem;
+    margin-bottom: 4rem; }
+
+/*# sourceMappingURL=policy-style.css.map */

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Demo</title>
+
+    <link rel="stylesheet" href="style/common-style.css">
+    <link rel="stylesheet" href="style/demo-style.css">
+    <link rel="stylesheet" href="style/responsive-grid.css">
+    <link rel="shortcut icon" href="logocircle.ico?v=1" type="image/x-icon"/>
+</head>
+<body>
+
+<div class="wrapper">
+    <aside id="mobile-menu">
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="why.html">why?</a></li>
+            <li class="current"><a href="demo.html">demo</a></li>
+            <li><a href="about.html">about us</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+    </aside>
+
+    <div class="menu columns small-12">
+        <div class="logo-wrap small-2">
+            <a href="index.html">
+                <img class="logo" src="img/logo.png" alt=""/>
+            </a>
+        </div>
+        <div class="nav-wrap small-5">
+            <div class="mobile-menu">
+                <a href="javascript:">
+                    <img src="img/menu-btn.png" alt=""/>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="why.html">why?</a></li>
+                    <li class="current"><a href="demo.html">demo</a></li>
+                    <li><a href="about.html">about us</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div id="content">
+        <div id="landing">
+            <div class="header text columns small-12">
+                <h1>Why not try it before buying it?</h1>
+            </div>
+            <div class="hint text columns small-12">
+                <span class="hint">It's <span class="free">free</span> and takes only 30 minutes!</span>
+            </div>
+            <div class="button-wrap columns small-12">
+                <a class="button">request live demo</a>
+            </div>
+        </div>
+        <div id="about">
+            <header>
+                <h1 class="large-9 medium-10 small-12">Request a live demo and walk through on all features with a mindshift sales specialist.</h1>
+            </header>
+            <div class="text">
+                <p class="large-9 medium-10 small-12">We would show you how to create a class seating plan, how the students are joining into pre registered classes, how teacher can engage students using the various methods of questions and answers and how teachers allow students to be able to react to other's queries and some surprise collaborative games.</p>
+                <p class="large-9 medium-10 small-12">A demo needs a few iPads and all accounts to be activated from the back end, Hence it is always better to have the demo along with mindshift executives. </p>
+            </div>
+        </div>
+        <div id="request">
+            <header>
+                <h1>Request Demo</h1>
+                <p class="large-6 medium-8 small-12">It is preferable that you have at least two iPads. if not possible we will arrange multiple logins and then show our side on a screen share.</p>
+            </header>
+            <div class="form">
+                <form method="post" action="storereq.php" onsubmit="this.submit(); this.reset(); return false;">
+                    <div class="row small-12">
+                        <div class="wrap ">
+                            <input type="text" name="name" placeholder="Your Name"/>
+                            <input type="text" name="school" placeholder="School Name"/>
+                        </div>
+                    </div>
+                    <div class="row small-12">
+                        <div class="wrap">
+                            <input type="text" name="email" placeholder="Email Address"/>
+                            <input type="text" name="city" placeholder="City"/>
+                        </div>
+                    </div>
+
+                    <div class="radio">
+                        <header>
+                            <h1>Please select that applies to you:</h1>
+                            <div class="border"></div>
+                        </header>
+                        <div class="options large-3 medium-5 small-11">
+                            <div class="option small-12">
+                                <input id="havepads" type="radio" name="option" value="1" checked />
+                                <label for="havepads"></label>
+                                <span>We have iPads for each kid already procured</span>
+                            </div>
+                            <div class="option">
+                                <input id="noplans" type="radio" name="option" value="0"/>
+                                <label for="noplans"></label>
+                                <span>We do not have any plan to procure iPads for each kid this year</span>
+                            </div>
+                            <div class="option">
+                                <input id="haveplans" type="radio" name="option" value="2"/>
+                                <label for="haveplans"></label>
+                                <span>We have plans to procure iPads for each kid this year</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button-wrap small-12">
+                        <input type="submit" value="send" />
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="apps">
+            <header>
+                <h1>Our iOS and Web apps</h1>
+            </header>
+            <div class="text">
+                <p class="large-8 medium-9 small-11">Our iOS apps are designed for IOS 8.0 and above and currently supported only on iPads.</p>
+            </div>
+            <div class="download">
+                <div class="button-wrap">
+                    <button class="download student">
+                         <a href="https://itunes.apple.com/us/app/learniat-student/id972350068?ls=1&amp;mt=8" target="_blank"> 
+                        <div class="icon">
+                            <img src="img/student-download.png" alt=""/>
+                        </div>
+                        <span class="label">download</span>
+                        <span class="notes">available in the app store</span>
+                    </button>
+                </div>
+                <div class="button-wrap">
+                    <button class="download teacher">
+                        <a href="https://itunes.apple.com/us/app/learniat-teacher/id972347683?ls=1&amp;mt=8" target="_blank">
+                        <div class="icon">
+                            <img src="img/teacher-download.png" alt=""/>
+                        </div>
+                        <span class="label">download</span>
+                        <span class="notes">available in the app store</span>
+                    </button>
+                </div>
+            </div>
+            <br>
+        <br>
+        <!--
+            <div class="links">
+                <a href="javascript:">Student Web App</a>
+                <a href="javascript:">Teacher Web App</a>
+                <a href="javascript:">School Web App</a>
+            </div>
+        -->
+        </div>
+    </div>
+
+
+    <footer class="small-12">
+        <div class="image-wrap columns medium-4 small-12">
+            <img class="logo" src="img/logo.png" alt=""/>
+        </div>
+        <div class="notes columns medium-4 small-12">
+            <div class="policy">
+                <ul>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><span class="separator"></span><a href="">Cookie Policy</a><span class="separator"></span></li>
+                    <li><a href="">Term Of Use</a></li>
+                </ul>
+            </div>
+            <div class="copyrights">
+                <span>&copy;2012 - 2015 mindshift ltd. All rights reserved.</span>
+            </div>
+        </div>
+        <div class="social columns medium-4 small-12">
+            <ul class="social-nav">
+                <li class="facebook"><a href=""><img src="img/face-ico.png" alt=""/></a></li>
+                <li class="twitter"><a href=""><img src="img/twitter-ico.png" alt=""/></a></li>
+                <li class="google"><a href=""><img src="img/g-ico.png" alt=""/></a></li>
+                <li class="github"><a href=""><img src="img/git-ico.png" alt=""/></a></li>
+                <li class="linkedin"><a href=""><img src="img/in-ico.png" alt=""/></a></li>
+            </ul>
+        </div>
+    </footer>
+</div>
+
+<script src="js/lib/jquery-1.9.1.min.js"></script>
+<script src="js/plugins/jquery.bxslider.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+$(".button").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".form").offset().top},
+        'slow');
+});
+</script>
+</body>
+</html>

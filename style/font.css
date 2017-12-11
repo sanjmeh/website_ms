@@ -1,0 +1,22 @@
+@font-face {
+    src:url(../fonts/roboto/Roboto-Black.ttf);
+	src:url(../fonts/roboto/Roboto-BlackItalic.ttf);
+	src:url(../fonts/roboto/Roboto-Bold.ttf);
+	src:url(../fonts/roboto/Roboto-BoldCondensedItalic);
+	src:url(../fonts/roboto/Roboto-Light);
+	src:url(../fonts/roboto/Roboto-Regular);
+	src:url(../fonts/roboto/Roboto-Medium);
+	src:url(../fonts/roboto/Roboto-BoldItalic);
+}
+@font-face {
+    src:url(../fonts/scorpion/ScorpionBlack.ttf);
+	src:url(../fonts/scorpion/ScorpionBold);
+	src:url(../fonts/scorpion/ScorpionLight);
+	src:url(../fonts/scorpion/ScorpionRegular);
+}
+@font-face {
+    src:url(../fonts/typograph/TypographBlack.ttf);
+	src:url(../fonts/typograph/ScorpionLight);
+	src:url(../fonts/typograph/ScorpionBold);
+	src:url(../fonts/typograph/ScorpionRegular);
+}

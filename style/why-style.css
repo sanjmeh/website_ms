@@ -1,0 +1,291 @@
+/*** MIXINS ***/
+/*** FUNCTIONS ***/
+@font-face {
+  font-family: "Raleway Bold";
+  src: url("font/Raleway-Bold.ttf"); }
+div.menu {
+  background: none;
+  position: fixed; }
+
+#content .slideshow {
+  background: url("../img/app-bg.png") no-repeat center center;
+  background-size: cover;
+  position: relative;
+  height: 100.125rem;
+  padding: 0rem 15rem 0rem 15.3125rem;
+  /* SLIDER */ }
+  @media only screen {
+    #content .slideshow {
+      padding: 0rem 0rem 0rem 2.2rem; } }
+  @media only screen and (min-width: 40.0625rem) {
+    #content .slideshow {
+      padding: 0rem 5.625rem 0rem 5rem; } }
+  @media only screen and (min-width: 64.0625em) {
+    #content .slideshow {
+      padding: 0rem 15rem 0rem 15.3125rem; } }
+  #content .slideshow .bx-viewport {
+    position: absolute;
+    background: none;
+    height: 100% !important;
+    border: none;
+    box-shadow: none; }
+  #content .slideshow .bx-controls .bx-pager {
+    bottom: -3.125rem;
+    left: -1rem; }
+    #content .slideshow .bx-controls .bx-pager .bx-pager-item {
+      float: left; }
+    #content .slideshow .bx-controls .bx-pager a {
+      background: #ffffff;
+      opacity: 0.5; }
+    #content .slideshow .bx-controls .bx-pager a.active {
+      opacity: 1; }
+  #content .slideshow .bx-controls .bx-controls-direction {
+    display: none; }
+  @media only screen {
+    #content .slideshow ul {
+      margin-top: 24.75rem; } }
+  @media only screen and (min-width: 40.0625rem) {
+    #content .slideshow ul {
+      margin-top: 31rem; } }
+  @media only screen and (min-width: 64.0625em) {
+    #content .slideshow ul {
+      margin-top: 37.25rem; } }
+  #content .slideshow ul li .wrap {
+    color: #ffffff; }
+    #content .slideshow ul li .wrap .text span {
+      font-size: 1.875rem;
+      letter-spacing: 1px; }
+    #content .slideshow ul li .wrap .text span.question {
+      font-family: "Raleway Bold"; }
+    #content .slideshow ul li .wrap .text span.answer {
+      font-family: "Raleway Medium"; }
+    #content .slideshow ul li .wrap .large-text {
+      margin-top: 5.6875rem;
+      font-family: "Raleway Light"; }
+      @media only screen {
+        #content .slideshow ul li .wrap .large-text {
+          font-size: 3.75rem; } }
+      @media only screen and (min-width: 40.0625rem) {
+        #content .slideshow ul li .wrap .large-text {
+          font-size: 4.375rem; } }
+      @media only screen and (min-width: 64.0625em) {
+        #content .slideshow ul li .wrap .large-text {
+          font-size: 5.375rem; } }
+#content .features:after {
+  content: "";
+  display: block;
+  height: 12.5rem;
+  clear: both; }
+@media only screen {
+  #content .features {
+    padding: 0; } }
+@media only screen and (min-width: 40.0625rem) {
+  #content .features {
+    padding: 0 2.5rem 0 2.5rem; } }
+@media only screen and (min-width: 64.0625em) {
+  #content .features {
+    padding: 0 5rem 0 5rem; } }
+#content .features header h1 {
+  padding-top: 8.75rem;
+  text-align: center;
+  font-size: 3.75rem;
+  font-family: "Raleway Light";
+  letter-spacing: 1px; }
+#content .features .feature {
+  text-align: center;
+  margin-top: 7.0625rem; }
+  #content .features .feature .ico {
+    width: 7.9375rem;
+    height: 7.9375rem;
+    display: inline-block; }
+    #content .features .feature .ico img {
+      width: 100%;
+      height: 100%; }
+  #content .features .feature header {
+    width: 100%;
+    text-align: center;
+    margin-top: 4.625rem; }
+    #content .features .feature header h1 {
+      display: inline-block;
+      font-family: "Raleway Medium";
+      font-size: 2.25rem;
+      width: 72%;
+      line-height: 2.8125rem;
+      padding: 0;
+      letter-spacing: 1px; }
+  #content .features .feature .text p {
+    color: #999999;
+    font-family: "Raleway Medium";
+    font-size: 1.875rem;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-top: 2.8125rem;
+    line-height: 2.8125rem; }
+    @media only screen {
+      #content .features .feature .text p {
+        width: 100%; } }
+    @media only screen and (min-width: 40.0625rem) {
+      #content .features .feature .text p {
+        width: 80%; } }
+#content .benefits {
+  background: url("../img/app-bg.png") no-repeat center center;
+  background-size: cover;
+  text-align: center; }
+  @media only screen {
+    #content .benefits {
+      padding: 0;
+      padding-bottom: 12.5rem; } }
+  @media only screen and (min-width: 40.0625rem) {
+    #content .benefits {
+      padding: 0 5rem 12.5rem 4.6875rem; } }
+  @media only screen and (min-width: 64.0625em) {
+    #content .benefits {
+      padding: 0 10rem 12.5rem 9.375rem; } }
+  #content .benefits header {
+    width: 100%;
+    padding-top: 6.25rem; }
+    #content .benefits header h1 {
+      display: inline-block;
+      font-family: "Raleway Light";
+      text-align: center;
+      color: #fff;
+      letter-spacing: 1px; }
+      @media only screen {
+        #content .benefits header h1 {
+          font-size: 4.0625rem; } }
+      @media only screen and (min-width: 40.0625rem) {
+        #content .benefits header h1 {
+          font-size: 4.5rem; } }
+  #content .benefits .table {
+    margin-top: 6.25rem;
+    text-align: center;
+    background: #ffffff;
+    display: inline-block;
+    box-shadow: 0px 5px 0px #d9d9d9;
+    border-radius: 5px; }
+    #content .benefits .table table {
+      display: inline-block;
+      border-collapse: collapse;
+      background: #ffffff; }
+      @media only screen {
+        #content .benefits .table table {
+          padding-left: 2.2rem;
+          padding-right: 2.2rem; } }
+      @media only screen and (min-width: 40.0625rem) {
+        #content .benefits .table table {
+          padding-left: 1.875rem;
+          padding-right: 1.875rem; } }
+      @media only screen and (min-width: 64.0625em) {
+        #content .benefits .table table {
+          padding-left: 4.375rem;
+          padding-right: 4.375rem; } }
+      #content .benefits .table table tr .learniat {
+        background: #6cbb43;
+        color: #ffffff;
+        border-top: 2px solid #6cbb43; }
+      #content .benefits .table table tr th {
+        font-family: "Montserrat Bold";
+        color: #a2a3a3;
+        text-transform: uppercase;
+        letter-spacing: 1px; }
+        @media only screen {
+          #content .benefits .table table tr th {
+            font-size: 1.25rem;
+            height: 6.25rem; } }
+        @media only screen and (min-width: 40.0625rem) {
+          #content .benefits .table table tr th {
+            font-size: 1.875rem;
+            height: 9.375rem; } }
+      #content .benefits .table table tr td {
+        width: 22.5rem;
+        text-align: center;
+        border-top: 2px solid #f5f5f5;
+        font-family: "Raleway Medium"; }
+        @media only screen {
+          #content .benefits .table table tr td {
+            height: 6.25rem;
+            font-size: 1.5rem; } }
+        @media only screen and (min-width: 40.0625rem) {
+          #content .benefits .table table tr td {
+            height: 7.5rem;
+            font-size: 1.875rem; } }
+        #content .benefits .table table tr td span {
+          display: block; }
+        @media only screen {
+          #content .benefits .table table tr td img {
+            width: 2.5rem;
+            height: 2.5rem; } }
+        @media only screen and (min-width: 40.0625rem) {
+          #content .benefits .table table tr td img {
+            width: 3.75rem;
+            height: 3.75rem; } }
+      #content .benefits .table table tr td.row {
+        color: #000000;
+        font-size: 1.875rem;
+        font-family: "Raleway Light";
+        width: 66.75rem;
+        text-align: left; }
+        @media only screen {
+          #content .benefits .table table tr td.row {
+            font-size: 1.5rem; } }
+        @media only screen and (min-width: 40.0625rem) {
+          #content .benefits .table table tr td.row {
+            font-size: 1.875rem; } }
+    #content .benefits .table .more {
+      padding: 3.125rem 0; }
+      #content .benefits .table .more a {
+        font-family: "Raleway Medium";
+        font-size: 1.875rem;
+        color: #3a72a8; }
+#content .dialog {
+  padding: 13rem 0rem 11.25rem 0rem;
+  text-align: center; }
+  #content .dialog header {
+    width: 100%; }
+    #content .dialog header h1 {
+      font-family: "Raleway Light";
+      text-align: center;
+      letter-spacing: 1px; }
+      @media only screen {
+        #content .dialog header h1 {
+          font-size: 4.0625rem; } }
+      @media only screen and (min-width: 40.0625rem) {
+        #content .dialog header h1 {
+          font-size: 4.5rem; } }
+  #content .dialog .section {
+    display: inline-block;
+    margin-top: 6.25rem; }
+    #content .dialog .section .ico {
+      display: inline-block; }
+      #content .dialog .section .ico img {
+        width: 100%;
+        height: 100%; }
+    #content .dialog .section .header {
+      width: 100%;
+      position: relative;
+      top: 2.5rem; }
+      #content .dialog .section .header h1 {
+        font-family: "Raleway Medium";
+        font-size: 2.25rem;
+        color: #000000;
+        letter-spacing: 1px; }
+    #content .dialog .section .text {
+      margin-top: 4.375rem; }
+      #content .dialog .section .text p {
+        color: #999999;
+        font-family: "Raleway Medium";
+        font-size: 1.875rem;
+        letter-spacing: 1px; }
+  #content .dialog .feedback .ico {
+    width: 10.5625rem;
+    height: 10.5625rem; }
+  #content .dialog .diploma .ico {
+    margin-left: 2.5rem;
+    width: 10.5625rem;
+    height: 10.5625rem; }
+  #content .dialog .chart .ico {
+    margin-left: 2.5rem;
+    width: 10.5625rem;
+    height: 10.5625rem; }
+
+/*# sourceMappingURL=why-style.css.map */
